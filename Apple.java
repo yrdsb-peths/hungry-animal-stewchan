@@ -9,5 +9,7 @@ public class Apple extends Actor
         int y = getY() + 3;
         setLocation(x, y);
         
+        // Check if apple is at bottom of screen
+        
     }
 }
