@@ -10,6 +10,9 @@ public class Apple extends Actor
         setLocation(x, y);
         
         // Check if apple is at bottom of screen
-        
+        MyWorld world = (MyWorld) getWorld();
+        if(getY() > world.getHeight()){
+            world.gameOver();
+        }
     }
 }
