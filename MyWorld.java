@@ -6,6 +6,7 @@ public class MyWorld extends World
     Label scoreLabel;
     Label gameOverLabel;
     
+    
     public MyWorld()
     {    
         super(600, 400, 1, false);
