@@ -6,10 +6,14 @@ public class MyWorld extends World
     Label scoreLabel;
     Label gameOverLabel;
     
-    
     public MyWorld()
     {    
         super(600, 400, 1, false);
+        
+        GreenfootImage bgImage = new GreenfootImage("Backgrounds/backgroundColorGrass.png");
+        bgImage.scale(500, 500);
+        setBackground(bgImage);
+        
         Elephant elephant = new Elephant();
         addObject(elephant, 100, 300);
         
