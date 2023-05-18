@@ -17,6 +17,9 @@ public class MyWorld extends World
         Elephant elephant = new Elephant();
         addObject(elephant, 100, 300);
         
+        Fox fox = new Fox();
+        addObject(fox, 500, 300);
+        
         // Score
         scoreLabel = new Label(0, 80);
         addObject(scoreLabel, 50, 50);
